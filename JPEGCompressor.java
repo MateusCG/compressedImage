@@ -14,8 +14,8 @@ public class JPEGCompressor{
 
   public static void main(String[] args){
 
-    File originalFile = new File("C:\\Users\\Casa\\Desktop\\poses-carol.jpg");
-    File compressedFile = new File("C:\\Users\\Casa\\Desktop\\compressed3.jpg");
+    File originalFile = new File("<CAMINHO_DO_ARQUIVO_PARA_COMPRESSAO>");
+    File compressedFile = new File("<CAMINHO_QUE_DESEJA_SALVAR_O_ARQUIVO_COMPRIMIDO>");
     System.out.println("Tamanho do arquivo antes da compressão: " + originalFile.length());
     
     try {
